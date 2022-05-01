@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+  background-color: #38afff;
+  border-radius: 2rem;
+  border: 1px solid #d30000;
+  width: 30%;
+  margin: auto;
+  padding: 1rem;
+}
+
+header {
+  height: 50px;
+  text-align: center;
+  padding: 40px;
+  background-color: #b3b3b3;
+}
+
+h2 {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+#new-task-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 50px;
+  margin-top: 40px;
+}
+
+#new-task-form #new-task-submit {
+  width: 100px;
+  padding: 10px;
+  border-radius: 30px;
+  background-color: #d30000;
+  color: white;
+}
+
+#new-task-form #new-task-input {
+  padding: 10px;
+  width: 250px;
+  background-color: #d30000;
+  border: 1px solid black;
+  border-radius: 15px;
+  color: white;
+  font-size: 1.5em;
+}
+
+#new-task-form ::-webkit-input-placeholder {
+  color: white;
+}
+
+main {
+  line-height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 75%;
+  margin: auto;
+}
+
+#task-text {
+  background-color: #d30000;
+  border-radius: 1rem;
+  padding: 0 10px;
+  color: white;
+  font-size: 1.5em;
+  margin: 0 2rem;
+  text-align: center;
+}
+/*# sourceMappingURL=todolist.css.map */
