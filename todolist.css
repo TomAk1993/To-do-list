@@ -5,9 +5,9 @@
 }
 
 .container {
-  background-color: #38afff;
+  background-color: #bde0fe;
   border-radius: 2rem;
-  border: 1px solid #d30000;
+  border: 1px solid white;
   width: 30%;
   margin: auto;
   padding: 1rem;
@@ -18,6 +18,12 @@ header {
   text-align: center;
   padding: 40px;
   background-color: #b3b3b3;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
 }
 
 h2 {
@@ -40,18 +46,34 @@ h2 {
   width: 100px;
   padding: 10px;
   border-radius: 30px;
-  background-color: #d30000;
-  color: white;
+  background-color: white;
+  color: black;
+}
+
+#new-task-form #new-task-input::-webkit-input-placeholder {
+  color: black;
+}
+
+#new-task-form #new-task-input:-ms-input-placeholder {
+  color: black;
+}
+
+#new-task-form #new-task-input::-ms-input-placeholder {
+  color: black;
+}
+
+#new-task-form #new-task-input::placeholder {
+  color: black;
 }
 
 #new-task-form #new-task-input {
   padding: 10px;
   width: 250px;
-  background-color: #d30000;
+  background-color: white;
   border: 1px solid black;
   border-radius: 15px;
-  color: white;
-  font-size: 1.5em;
+  color: black;
+  font-size: 1em;
 }
 
 #new-task-form ::-webkit-input-placeholder {
@@ -75,12 +97,16 @@ main {
 }
 
 #task-text {
-  background-color: #d30000;
+  background-color: white;
   border-radius: 1rem;
   padding: 0 10px;
-  color: white;
-  font-size: 1.5em;
+  color: black;
+  font-size: 1em;
   margin: 0 2rem;
   text-align: center;
+}
+
+#task-text p {
+  gap: 30px;
 }
 /*# sourceMappingURL=todolist.css.map */

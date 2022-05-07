@@ -7,5 +7,4 @@ addTask.addEventListener('click', function(e){
     const p = document.createElement('p')
     p.innerHTML = formInput.value;
     taskText.appendChild(p);
-    
 })
