@@ -13,6 +13,21 @@
   padding: 1rem;
 }
 
+.container p {
+  font-size: 1em;
+  margin-left: 10px;
+  font-weight: 700;
+}
+
+.container span {
+  text-decoration: underline;
+  color: #e63946;
+}
+
+.container span:hover {
+  cursor: pointer;
+}
+
 header {
   height: 50px;
   text-align: center;
@@ -96,17 +111,25 @@ main {
   margin: auto;
 }
 
-#task-text {
+#task-text ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 30px;
+}
+
+#text li {
+  list-style-type: none;
   background-color: white;
   border-radius: 1rem;
   padding: 0 10px;
   color: black;
-  font-size: 1em;
+  font-size: 1.2em;
   margin: 0 2rem;
   text-align: center;
-}
-
-#task-text p {
-  gap: 30px;
 }
 /*# sourceMappingURL=todolist.css.map */

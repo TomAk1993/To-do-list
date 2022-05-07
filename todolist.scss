@@ -19,6 +19,21 @@ $blue: rgb(255, 255, 255);
     padding: 1rem;
 }
 
+.container p {
+    font-size: 1em;
+    margin-left: 10px;
+    font-weight: 700;
+}
+
+.container span {
+    text-decoration: underline;
+    color: #e63946
+}
+
+.container span:hover {
+    cursor: pointer;
+}
+
 header{
     height: 50px; 
     text-align: center;
@@ -79,16 +94,19 @@ main {
     margin: auto;
 }
 
-#task-text {
+#task-text ul {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#text li {
+    list-style-type: none;
     background-color: $blue;
     border-radius: 1rem;
     padding: 0 10px;
     color: rgb(0, 0, 0);
-    font-size: 1em;
+    font-size: 1.2em;
     margin: 0 2rem;
     text-align: center;
-}
-
-#task-text p {
-    gap: 30px;
 }
