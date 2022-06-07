@@ -12,7 +12,7 @@ addTask.addEventListener('click', function(e){
 
 clear.addEventListener('click', function(e){
     e.preventDefault();
-    taskText.remove();
+    taskText.remove(); 
 })
 
 
